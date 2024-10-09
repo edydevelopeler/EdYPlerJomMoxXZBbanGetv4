@@ -21,7 +21,7 @@ apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubu
 ## UPDATE SCRIPT
 Masukkan perintah dibawah jika terdapat informasi pembaruan Script untuk versi yang akan datang
 ```
-wget -q https://raw.githubusercontent.com/ghoibvpn21/Autoscript/GM/update.sh && chmod +x update.sh && ./update.sh
+wget -q https://raw.githubusercontent.com/edydevelopeler/EdYPlerJomMoxXZBbanGetv4/GM/update.sh && chmod +x update.sh && ./update.sh
 ```
 
 ## TESTED ON OS
