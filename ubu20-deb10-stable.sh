@@ -25,10 +25,10 @@ clear;clear;clear
 
 # // Banner
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "  Developer » GHOIBVPN࿐${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Developer » EDY DEVELOPELER࿐${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e "  » This Will Quick Setup VPN Server On Your Server"
-echo -e "  Pembuat : ${green} GHOIBVPN࿐® ${NC}"
-echo -e "  HAK CIPTA GHOIBVPN࿐ ${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
+echo -e "  Pembuat : ${green} EDY DEVELOPELER࿐® ${NC}"
+echo -e "  HAK CIPTA EDY DEVELOPELER࿐ ${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo ""
 sleep 2
@@ -84,7 +84,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/ghoibvpn21/Autoscript/GM/"
+    REPO="https://raw.githubusercontent.com/edydevelopeler/EdYPlerJomMoxXZBbanGetv4/GM/"
 
 ####
 start=$(date +%s)
@@ -271,7 +271,7 @@ restart_system(){
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/ghoibvpn21/Autoscript/GM/Register"
+izinsc="https://raw.githubusercontent.com/edydevelopeler/EdYPlerJomMoxXZBbanGetv4/GM/Register"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -308,8 +308,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="6735684125"
-KEY="6501332793:AAFqR8ie_r1m6hLquZdMw7_wCAVp3hcbp20"
+CHATID="-1002047467153"
+KEY="6963918712:AAEec6iZq8AfhJ_LBlXBsQfRha8dP7tV24M"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
@@ -324,10 +324,10 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 <code>Time     :</code><code>$TIMEZONE</code>
 <code>Exp Sc.  :</code><code>$exp</code>
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
-<b>baimkuy࿐</b>
+<b>Edy Developeler/b>
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://wa.me/+6281226229275"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/kangbacox"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
@@ -534,7 +534,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service Limit IP & Quota"
-wget -q https://raw.githubusercontent.com/ghoibvpn21/Autoscript/GM/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
+wget -q https://raw.githubusercontent.com/edydevelopeler/EdYPlerJomMoxXZBbanGetv4/GM/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
 
 # // Installing UDP Mini
 mkdir -p /usr/local/kyt/
